@@ -1,5 +1,5 @@
 from ..myclass import MyMainClass
 
-def main_function():
+def generic_main():
   programm = MyMainClass ()
   print (programm.run())

@@ -20,15 +20,15 @@ The template focusses on the following function:
 **Be very careful to change the basic structure in this template. Imports might break without you even realizing it for a long time**
 
 
-# How to use 
+# How to use
 
 * Do global search & replace:<br>
   search: `my_package` <br>
   replace: `<YOUR PACKAGE NAME>`
-* Customize my_package/setup.cfg 
+* Customize my_package/setup.cfg
 * No need to customize my_package/pyproject.toml
 * Understand, that the **entry point for this project** is:<br>
-   `src/my_package/my_package/main/main.py:main_function()`
+   `src/my_package/my_package/main/main.py:generic_main()`
 
 
 
