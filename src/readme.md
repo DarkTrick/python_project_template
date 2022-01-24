@@ -12,7 +12,7 @@ python3 -m unittest
 
 
 
-## Install & run (for testing):
+# Install & run (for testing):
 ```
 pip install .
 # run project
