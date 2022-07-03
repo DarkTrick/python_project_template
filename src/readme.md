@@ -10,6 +10,10 @@ cd ./my_package
 python3 -m unittest   
 ```
 
+Remember that for `unnittest` 
+- Files with tests must be named `test_*.py`
+  - E.g. this does not work: `test.mypackage.py`
+- Test functions must be named `test_*`
 
 
 # Install & run (for testing):
