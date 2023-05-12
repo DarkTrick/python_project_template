@@ -17,6 +17,7 @@ Remember that for `unnittest`
 
 
 # Install & run (for testing):
+Use the following commands to locally install and test your project
 ```
 pip install .
 # run project
