@@ -37,4 +37,7 @@ This file could not be ...
 - ... [distributed on PyPI](https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives)
 - ... installed via `pip install ./dist/[...].tar.gz`
 
-
+# Uninstall
+```
+pip uninstall gitp
+```
