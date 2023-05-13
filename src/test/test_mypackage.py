@@ -1,6 +1,6 @@
 import unittest
 
-from my_package.myclass import MyMainClass
+from my_package.my_package.myclass import MyMainClass
 
 class MyTests(unittest.TestCase):
   def test_nothing(self):

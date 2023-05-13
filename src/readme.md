@@ -6,11 +6,10 @@ python3 my_package
 
 # unit testing
 ```
-cd ./my_package
-python3 -m unittest   
+python3 -m unittest
 ```
 
-Remember that for `unnittest` 
+Remember that for `unittest`
 - Files with tests must be named `test_*.py`
   - E.g. this does not work: `test.mypackage.py`
 - Test functions must be named `test_*`
@@ -23,7 +22,6 @@ pip install .
 # run project
 my_package
 ```
-
 
 
 # Build Project (for distributing and system install):
