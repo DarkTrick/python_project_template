@@ -1,3 +1,3 @@
-from my_package.main import main
+from my_package.my_package import main
 
-main.generic_main()
+main.main()
