@@ -23,6 +23,12 @@ pip install .
 my_package
 ```
 
+*Note:* For reinstalling, first remove the `build` directory that was created. Otherwise the file structure will be messed up.
+
+# Uninstall (for testing):
+```
+pip uninstall my_package
+```
 
 # Build Project (for distributing and system install):
 
@@ -36,7 +42,3 @@ This file could not be ...
 - ... [distributed on PyPI](https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives)
 - ... installed via `pip install ./dist/[...].tar.gz`
 
-# Uninstall
-```
-pip uninstall gitp
-```
